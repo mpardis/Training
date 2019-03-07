@@ -87,8 +87,6 @@
     </implicitContextSettings>
     <ItemsRelations xmi:id="_fulygEEjEemwwoOXqHkASA">
       <baseItem xmi:id="_fulygUEjEemwwoOXqHkASA" id="_lyL2oG8aEeKbXex5t-pnVw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_fulygkEjEemwwoOXqHkASA" id="_DeEsoGTnEeKWJ_OZXqLpIg" version="Latest" type="property"/>
-      <relatedItems xmi:id="_fulyg0EjEemwwoOXqHkASA" id="_26EZgGTmEeKWJ_OZXqLpIg" version="Latest" type="property"/>
       <relatedItems xmi:id="_fulyhEEjEemwwoOXqHkASA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_fulyhUEjEemwwoOXqHkASA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_fulyhkEjEemwwoOXqHkASA" id="TalendString" version="Latest" type="routine"/>
@@ -100,6 +98,12 @@
       <relatedItems xmi:id="_fulyjEEjEemwwoOXqHkASA" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_fulyjUEjEemwwoOXqHkASA" id="_DeEsoGTnEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
       <relatedItems xmi:id="_fulyjkEjEemwwoOXqHkASA" id="_26EZgGTmEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Jm9FoEEmEemwwoOXqHkASA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Jm9FoUEmEemwwoOXqHkASA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Jm9FokEmEemwwoOXqHkASA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Jm9Fo0EmEemwwoOXqHkASA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Jm9FpEEmEemwwoOXqHkASA" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Jm9FpUEmEemwwoOXqHkASA" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_nPyCIEEaEemWOsdYijvI9w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_nPyCIUEaEemWOsdYijvI9w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
