@@ -117,7 +117,7 @@
     <routinesParameter id="_PYoFIEEtEemyBdWUgvZh3w" name="DataQuality"/>
     <routinesParameter id="_PYsWkEEtEemyBdWUgvZh3w" name="DataMasking"/>
   </parameters>
-  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
+  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileTouch_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;/home/talenduser/&quot; + context.FileName"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="false"/>
