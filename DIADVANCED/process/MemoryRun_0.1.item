@@ -317,7 +317,7 @@
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tSortRow_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="ID"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="false"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="FirstName"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
