@@ -81,9 +81,9 @@
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASS" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statecatcher&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;statecatcher&quot;" show="false"/>
     <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
     <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
     <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
