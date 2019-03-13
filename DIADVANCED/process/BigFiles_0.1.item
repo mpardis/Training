@@ -19,9 +19,9 @@
     <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
     <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
@@ -156,7 +156,7 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_1">
@@ -207,7 +207,7 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_2">
