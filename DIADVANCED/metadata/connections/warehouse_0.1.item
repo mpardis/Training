@@ -8,9 +8,9 @@
     <taggedValue xmi:id="_DeaD0mTnEeKWJ_OZXqLpIg" tag="Purpose" value=""/>
     <taggedValue xmi:id="_DeaD02TnEeKWJ_OZXqLpIg" tag="Description" value=""/>
     <taggedValue xmi:id="_Deaq4GTnEeKWJ_OZXqLpIg" tag="Author" value=""/>
-    <taggedValue xmi:id="_Deaq4WTnEeKWJ_OZXqLpIg" tag="otherParameter" value=""/>
+    <taggedValue xmi:id="_Deaq4WTnEeKWJ_OZXqLpIg" tag="otherParameter"/>
     <taggedValue xmi:id="_Deaq4mTnEeKWJ_OZXqLpIg" tag="DB ProductName" value="MySQL"/>
-    <taggedValue xmi:id="_Deaq42TnEeKWJ_OZXqLpIg" tag="DB ProductVersion" value="5.5.20"/>
+    <taggedValue xmi:id="_Deaq42TnEeKWJ_OZXqLpIg" tag="DB ProductVersion" value="5.5.56-MariaDB"/>
     <taggedValue xmi:id="_Deaq5GTnEeKWJ_OZXqLpIg" tag="DB IdentifierQuoteString" value="`"/>
     <taggedValue xmi:id="_XBbXMEaLEem_momyvNA-2Q" tag="Is Conn Need Reload" value="false"/>
     <queries xmi:id="_RLYtAGTuEeKWJ_OZXqLpIg">
