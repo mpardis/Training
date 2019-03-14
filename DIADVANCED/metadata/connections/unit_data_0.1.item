@@ -16,6 +16,15 @@
     <queries xmi:id="_FKcDoGTuEeKWJ_OZXqLpIg">
       <query xmi:id="_VUMxoUaREem_momyvNA-2Q" id="_VUMxoEaREem_momyvNA-2Q" comment="Training" label="SellectAll" value="select * from customers"/>
     </queries>
+    <cdcConns xmi:id="_8EoDcEaTEem_momyvNA-2Q">
+      <cdcTypes xmi:id="_8EoDcUaTEem_momyvNA-2Q" linkDB="_GU32IEaSEem_momyvNA-2Q" cdcConnection="_8EoDcEaTEem_momyvNA-2Q">
+        <subscribers xmi:id="_8EoDc0aTEem_momyvNA-2Q" name="TSUBSCRIBERS" id="_8EoDckaTEem_momyvNA-2Q" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8EoDdEaTEem_momyvNA-2Q" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8EoDdUaTEem_momyvNA-2Q" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8EoDdkaTEem_momyvNA-2Q" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_cNJqoEaKEem_momyvNA-2Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_jEvi8GToEeKWJ_OZXqLpIg" name="unit_data" dataManager="_26FAkGTmEeKWJ_OZXqLpIg">
