@@ -1,20 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_KCEQsEZ-Eem_momyvNA-2Q">
-  <parameters xmi:id="_KCE3wEZ-Eem_momyvNA-2Q">
-    <routinesParameter xmi:id="_KCE3wUZ-Eem_momyvNA-2Q" id="_PYdGAEEtEemyBdWUgvZh3w" name="DQTechnical"/>
-    <routinesParameter xmi:id="_KCE3wkZ-Eem_momyvNA-2Q" id="_PYsWkEEtEemyBdWUgvZh3w" name="DataMasking"/>
-    <routinesParameter xmi:id="_KCE3w0Z-Eem_momyvNA-2Q" id="_PXmKYEEtEemyBdWUgvZh3w" name="DataOperation"/>
-    <routinesParameter xmi:id="_KCE3xEZ-Eem_momyvNA-2Q" id="_PYhXcEEtEemyBdWUgvZh3w" name="DataQualityDependencies"/>
-    <routinesParameter xmi:id="_KCE3xUZ-Eem_momyvNA-2Q" id="_PYoFIEEtEemyBdWUgvZh3w" name="DataQuality"/>
-    <routinesParameter xmi:id="_KCE3xkZ-Eem_momyvNA-2Q" id="_PYTVAEEtEemyBdWUgvZh3w" name="DqStringHandling"/>
-    <routinesParameter xmi:id="_KCE3x0Z-Eem_momyvNA-2Q" id="_PXh48EEtEemyBdWUgvZh3w" name="Mathematical"/>
-    <routinesParameter xmi:id="_KCE3yEZ-Eem_momyvNA-2Q" id="_PX990EEtEemyBdWUgvZh3w" name="Numeric"/>
-    <routinesParameter xmi:id="_KCE3yUZ-Eem_momyvNA-2Q" id="_PQp04EEtEemyBdWUgvZh3w" name="Relational"/>
-    <routinesParameter xmi:id="_KCE3ykZ-Eem_momyvNA-2Q" id="_PYKLEEEtEemyBdWUgvZh3w" name="SQLike"/>
-    <routinesParameter xmi:id="_KCE3y0Z-Eem_momyvNA-2Q" id="_PXuGMEEtEemyBdWUgvZh3w" name="StringHandling"/>
-    <routinesParameter xmi:id="_KCE3zEZ-Eem_momyvNA-2Q" id="_PXPlEEEtEemyBdWUgvZh3w" name="TalendDataGenerator"/>
-    <routinesParameter xmi:id="_KCE3zUZ-Eem_momyvNA-2Q" id="_PXYH8EEtEemyBdWUgvZh3w" name="TalendDate"/>
-    <routinesParameter xmi:id="_KCE3zkZ-Eem_momyvNA-2Q" id="_PX3QIEEtEemyBdWUgvZh3w" name="TalendStringUtil"/>
-    <routinesParameter xmi:id="_KCE3z0Z-Eem_momyvNA-2Q" id="_PYEEcEEtEemyBdWUgvZh3w" name="TalendString"/>
+<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_KjAakEZ-Eem_momyvNA-2Q" defaultContext="Default" jobType="Standard" originalJobID="_k161EEZ7Eem_momyvNA-2Q" parentVersion="0.1">
+  <context xmi:id="_KjAakUZ-Eem_momyvNA-2Q" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_KjAakkZ-Eem_momyvNA-2Q">
+    <elementParameter xmi:id="_KjAak0Z-Eem_momyvNA-2Q" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_KjAalEZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_KjAalUZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_KjAalkZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_KjAal0Z-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_KjAamEZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_KjAamUZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_KjAamkZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_KjAam0Z-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_KjAanEZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_KjAanUZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_KjAankZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_KjAan0Z-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_KjAaoEZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_KjAaoUZ-Eem_momyvNA-2Q" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_KjAaokZ-Eem_momyvNA-2Q" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAao0Z-Eem_momyvNA-2Q" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAapEZ-Eem_momyvNA-2Q" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_KjAapUZ-Eem_momyvNA-2Q" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_KjAapkZ-Eem_momyvNA-2Q" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_KjAap0Z-Eem_momyvNA-2Q" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAaqEZ-Eem_momyvNA-2Q" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAaqUZ-Eem_momyvNA-2Q" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;/root/workspace/in.csv&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAaqkZ-Eem_momyvNA-2Q" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAaq0Z-Eem_momyvNA-2Q" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_KjAarEZ-Eem_momyvNA-2Q" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_KjAarUZ-Eem_momyvNA-2Q" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAarkZ-Eem_momyvNA-2Q" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_KjAar0Z-Eem_momyvNA-2Q" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAasEZ-Eem_momyvNA-2Q" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAasUZ-Eem_momyvNA-2Q" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAaskZ-Eem_momyvNA-2Q" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAas0Z-Eem_momyvNA-2Q" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAatEZ-Eem_momyvNA-2Q" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAatUZ-Eem_momyvNA-2Q" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAatkZ-Eem_momyvNA-2Q" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAat0Z-Eem_momyvNA-2Q" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_KjAauEZ-Eem_momyvNA-2Q" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAauUZ-Eem_momyvNA-2Q" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAaukZ-Eem_momyvNA-2Q" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAau0Z-Eem_momyvNA-2Q" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_KjAavEZ-Eem_momyvNA-2Q" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_KjAavUZ-Eem_momyvNA-2Q" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAavkZ-Eem_momyvNA-2Q" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAav0Z-Eem_momyvNA-2Q" field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_KjAawEZ-Eem_momyvNA-2Q" field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter xmi:id="_KjAawUZ-Eem_momyvNA-2Q" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_KjAawkZ-Eem_momyvNA-2Q" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_KjAaw0Z-Eem_momyvNA-2Q" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_KjAaxEZ-Eem_momyvNA-2Q" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAaxUZ-Eem_momyvNA-2Q" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAaxkZ-Eem_momyvNA-2Q" field="DIRECTORY" name="FILE_PATH" value="&quot;/root/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAax0Z-Eem_momyvNA-2Q" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAayEZ-Eem_momyvNA-2Q" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAayUZ-Eem_momyvNA-2Q" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAaykZ-Eem_momyvNA-2Q" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_KjAay0Z-Eem_momyvNA-2Q" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_KjAazEZ-Eem_momyvNA-2Q" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAazUZ-Eem_momyvNA-2Q" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_KjAazkZ-Eem_momyvNA-2Q" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_KjAaz0Z-Eem_momyvNA-2Q" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa0EZ-Eem_momyvNA-2Q" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_KjAa0UZ-Eem_momyvNA-2Q" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa0kZ-Eem_momyvNA-2Q" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa00Z-Eem_momyvNA-2Q" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa1EZ-Eem_momyvNA-2Q" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa1UZ-Eem_momyvNA-2Q" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa1kZ-Eem_momyvNA-2Q" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa10Z-Eem_momyvNA-2Q" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa2EZ-Eem_momyvNA-2Q" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa2UZ-Eem_momyvNA-2Q" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa2kZ-Eem_momyvNA-2Q" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_KjAa20Z-Eem_momyvNA-2Q" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa3EZ-Eem_momyvNA-2Q" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa3UZ-Eem_momyvNA-2Q" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa3kZ-Eem_momyvNA-2Q" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_KjAa30Z-Eem_momyvNA-2Q" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_KjAa4EZ-Eem_momyvNA-2Q" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_KjAa4UZ-Eem_momyvNA-2Q" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_KjAa4kZ-Eem_momyvNA-2Q" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAa40Z-Eem_momyvNA-2Q" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa5EZ-Eem_momyvNA-2Q" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAa5UZ-Eem_momyvNA-2Q" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa5kZ-Eem_momyvNA-2Q" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa50Z-Eem_momyvNA-2Q" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa6EZ-Eem_momyvNA-2Q" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa6UZ-Eem_momyvNA-2Q" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_KjAa6kZ-Eem_momyvNA-2Q" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa60Z-Eem_momyvNA-2Q" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_KjAa7EZ-Eem_momyvNA-2Q" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter xmi:id="_KjAa7UZ-Eem_momyvNA-2Q" id="_PYdGAEEtEemyBdWUgvZh3w" name="DQTechnical"/>
+    <routinesParameter xmi:id="_KjAa7kZ-Eem_momyvNA-2Q" id="_PYsWkEEtEemyBdWUgvZh3w" name="DataMasking"/>
+    <routinesParameter xmi:id="_KjAa70Z-Eem_momyvNA-2Q" id="_PXmKYEEtEemyBdWUgvZh3w" name="DataOperation"/>
+    <routinesParameter xmi:id="_KjAa8EZ-Eem_momyvNA-2Q" id="_PYhXcEEtEemyBdWUgvZh3w" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_KjAa8UZ-Eem_momyvNA-2Q" id="_PYoFIEEtEemyBdWUgvZh3w" name="DataQuality"/>
+    <routinesParameter xmi:id="_KjAa8kZ-Eem_momyvNA-2Q" id="_PYTVAEEtEemyBdWUgvZh3w" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_KjAa80Z-Eem_momyvNA-2Q" id="_PXh48EEtEemyBdWUgvZh3w" name="Mathematical"/>
+    <routinesParameter xmi:id="_KjAa9EZ-Eem_momyvNA-2Q" id="_PX990EEtEemyBdWUgvZh3w" name="Numeric"/>
+    <routinesParameter xmi:id="_KjAa9UZ-Eem_momyvNA-2Q" id="_PQp04EEtEemyBdWUgvZh3w" name="Relational"/>
+    <routinesParameter xmi:id="_KjAa9kZ-Eem_momyvNA-2Q" id="_PYKLEEEtEemyBdWUgvZh3w" name="SQLike"/>
+    <routinesParameter xmi:id="_KjAa90Z-Eem_momyvNA-2Q" id="_PXuGMEEtEemyBdWUgvZh3w" name="StringHandling"/>
+    <routinesParameter xmi:id="_KjAa-EZ-Eem_momyvNA-2Q" id="_PXPlEEEtEemyBdWUgvZh3w" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_KjAa-UZ-Eem_momyvNA-2Q" id="_PXYH8EEtEemyBdWUgvZh3w" name="TalendDate"/>
+    <routinesParameter xmi:id="_KjAa-kZ-Eem_momyvNA-2Q" id="_PX3QIEEtEemyBdWUgvZh3w" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_KjAa-0Z-Eem_momyvNA-2Q" id="_PYEEcEEtEemyBdWUgvZh3w" name="TalendString"/>
   </parameters>
 </testcontainer:TestContainer>
