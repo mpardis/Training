@@ -366,6 +366,10 @@
       <relatedItems xmi:id="_k2Mh7EZ7Eem_momyvNA-2Q" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_k2Mh7UZ7Eem_momyvNA-2Q" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_k2Mh7kZ7Eem_momyvNA-2Q" id="_eBn84P7xEeSgjrPDZFTtUw - customers_metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_riZ7MEZ7Eem_momyvNA-2Q" id="_eUjEEEHsEemhKLnW6jlb7Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_riZ7MUZ7Eem_momyvNA-2Q" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_riaiQEZ7Eem_momyvNA-2Q" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_riaiQUZ7Eem_momyvNA-2Q" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_PIohUEEtEemyBdWUgvZh3w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_PIohUUEtEemyBdWUgvZh3w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
