@@ -127,7 +127,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="PoLvNyVG2XWndNDdLn696A=="/>
-    <elementParameter field="DBTABLE" name="DATATABLE" value="&quot;CDC.TCDC_customers&quot;"/>
+    <elementParameter field="DBTABLE" name="DATATABLE" value="&quot;customers&quot;"/>
     <elementParameter field="TEXT" name="SUSCRIBER" value="&quot;Customers&quot;"/>
     <elementParameter field="LABEL" name="EVENTS_TYPE" value=""/>
     <elementParameter field="CHECK" name="EVENTS_TYPE_INSERT" value="true"/>
