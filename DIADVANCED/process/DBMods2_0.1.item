@@ -232,19 +232,19 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Update1" expressionFilter="row1.id.equals=8" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Update1" expressionFilter="row1.id.equals=&quot;8&quot;" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="row1.firstname" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
         <mapperTableEntries name="age" expression="24" type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Update2" expressionFilter="row1.id.equals=8" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Update2" expressionFilter="row1.id.equals=&quot;8&quot;" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="&quot;Daphne&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
         <mapperTableEntries name="age" expression="row1.age" type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Update3" expressionFilter="row1.id.equals=8" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Update3" expressionFilter="row1.id.equals=&quot;8&quot;" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="row1.firstname" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
