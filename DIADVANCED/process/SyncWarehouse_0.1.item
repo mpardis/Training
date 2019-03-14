@@ -234,19 +234,19 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Insert" expressionFilter="row1.TALEND_CDC_TYPE .equals('I&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Insert" expressionFilter="row1.TALEND_CDC_TYPE.equals(&quot;I&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="row1.firstname" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
         <mapperTableEntries name="age" expression="row1.age" type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Update" expressionFilter="row1.TALEND_CDC_TYPE .equals('U&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Update" expressionFilter="row1.TALEND_CDC_TYPE.equals(&quot;U&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="row1.firstname" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
         <mapperTableEntries name="age" expression="row1.age" type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Delete" expressionFilter="row1.TALEND_CDC_TYPE .equals('D&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Delete" expressionFilter="row1.TALEND_CDC_TYPE .equals(&quot;D&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id" type="id_Integer"/>
         <mapperTableEntries name="firstname" expression="row1.firstname" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.name" type="id_String" nullable="true"/>
