@@ -13,7 +13,9 @@
     <taggedValue xmi:id="_26bl52TmEeKWJ_OZXqLpIg" tag="DB ProductVersion" value="5.5.20"/>
     <taggedValue xmi:id="_26bl6GTmEeKWJ_OZXqLpIg" tag="DB IdentifierQuoteString" value="`"/>
     <taggedValue xmi:id="_cOQd4EaKEem_momyvNA-2Q" tag="Is Conn Need Reload" value="false"/>
-    <queries xmi:id="_FKcDoGTuEeKWJ_OZXqLpIg"/>
+    <queries xmi:id="_FKcDoGTuEeKWJ_OZXqLpIg">
+      <query xmi:id="_VUMxoUaREem_momyvNA-2Q" id="_VUMxoEaREem_momyvNA-2Q" comment="Training" label="SellectAll" value="select * from customers"/>
+    </queries>
     <parameters xmi:id="_cNJqoEaKEem_momyvNA-2Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_jEvi8GToEeKWJ_OZXqLpIg" name="unit_data" dataManager="_26FAkGTmEeKWJ_OZXqLpIg">
