@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_DeEsoWTnEeKWJ_OZXqLpIg" name="warehouse" label="warehouse" dataPackage="_2vqOYGToEeKWJ_OZXqLpIg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/warehouse?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="warehouse" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_DeEsoWTnEeKWJ_OZXqLpIg" name="warehouse" id="_DeEsoGTnEeKWJ_OZXqLpIg" label="warehouse" dataPackage="_2vqOYGToEeKWJ_OZXqLpIg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://192.168.55.41:3306/warehouse?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="192.168.55.41" DatasourceName="" FileFieldName="" SID="warehouse" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_DeT9MGTnEeKWJ_OZXqLpIg" tag="Using URL" value="jdbc:mysql://localhost:3306/warehouse?noDatetimeStringSync=true"/>
     <taggedValue xmi:id="_DeT9MWTnEeKWJ_OZXqLpIg" tag="package filter" value=""/>
     <taggedValue xmi:id="_DeaD0GTnEeKWJ_OZXqLpIg" tag="Status" value=""/>
@@ -12,9 +12,11 @@
     <taggedValue xmi:id="_Deaq4mTnEeKWJ_OZXqLpIg" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_Deaq42TnEeKWJ_OZXqLpIg" tag="DB ProductVersion" value="5.5.20"/>
     <taggedValue xmi:id="_Deaq5GTnEeKWJ_OZXqLpIg" tag="DB IdentifierQuoteString" value="`"/>
+    <taggedValue xmi:id="_XBbXMEaLEem_momyvNA-2Q" tag="Is Conn Need Reload" value="false"/>
     <queries xmi:id="_RLYtAGTuEeKWJ_OZXqLpIg">
       <query xmi:id="_RLYtAWTuEeKWJ_OZXqLpIg" id="_RLYtAmTuEeKWJ_OZXqLpIg" label="SelectAll" value="select customers.id,customers.firstname,customers.name,customers.age &#xA;from customers"/>
     </queries>
+    <parameters xmi:id="_XAPrcEaLEem_momyvNA-2Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_2vqOYGToEeKWJ_OZXqLpIg" name="warehouse" dataManager="_DeEsoWTnEeKWJ_OZXqLpIg">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_2vqOYWToEeKWJ_OZXqLpIg" name="customers" id="_1E6j0GToEeKWJ_OZXqLpIg" label="customers" tableType="TABLE">
