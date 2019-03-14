@@ -253,10 +253,12 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tCollector" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="96">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCollector_2" show="false"/>
+  <node componentName="tRecollector" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRecollector_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DEPART_COMPONENT" value="tDepartitioner_1"/>
+    <elementParameter field="CHECK" name="IS_SORTING" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tCollector_2">
+    <metadata connector="FLOW" name="tRecollector_1">
       <column comment="" key="false" length="-1" name="FirstName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getFirstName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
@@ -337,10 +339,10 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="STARTS" label="Starts" lineStyle="21" metaname="tDepartitioner_1" offsetLabelX="0" offsetLabelY="0" source="tDepartitioner_1" target="tCollector_2">
+  <connection connectorName="STARTS" label="Starts" lineStyle="21" metaname="tDepartitioner_1" offsetLabelX="0" offsetLabelY="0" source="tDepartitioner_1" target="tRecollector_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Starts2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tCollector_2" offsetLabelX="0" offsetLabelY="0" source="tCollector_2" target="tFileOutputDelimited_1">
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tRecollector_1" offsetLabelX="0" offsetLabelY="0" source="tRecollector_1" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
@@ -355,7 +357,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCollector_2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRecollector_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
