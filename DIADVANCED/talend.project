@@ -100,6 +100,13 @@
       <relatedItems xmi:id="_otk7PEEtEemyBdWUgvZh3w" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_otk7PUEtEemyBdWUgvZh3w" id="_DeEsoGTnEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
       <relatedItems xmi:id="_otk7PkEtEemyBdWUgvZh3w" id="_26EZgGTmEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_TOyBcEaKEem_momyvNA-2Q" id="_eUjEEEHsEemhKLnW6jlb7Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_TOyBcUaKEem_momyvNA-2Q" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TOyBckaKEem_momyvNA-2Q" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TOyBc0aKEem_momyvNA-2Q" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TOyBdEaKEem_momyvNA-2Q" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TOyBdUaKEem_momyvNA-2Q" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TOyBdkaKEem_momyvNA-2Q" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_UQeQgEG_EemyBdWUgvZh3w">
       <baseItem xmi:id="_UQeQgUG_EemyBdWUgvZh3w" id="_N5XZ8EG-EemyBdWUgvZh3w" version="0.1" type="job"/>
