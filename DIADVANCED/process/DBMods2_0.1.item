@@ -71,7 +71,7 @@
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;amc&quot;"/>
@@ -122,7 +122,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
@@ -269,7 +269,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -369,7 +369,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -469,7 +469,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -567,7 +567,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
@@ -670,7 +670,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -768,7 +768,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
@@ -871,7 +871,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -969,7 +969,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
@@ -1072,7 +1072,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.41&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;unit_data&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
@@ -1168,20 +1168,20 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="Update3" lineStyle="0" metaname="Update3" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tMysqlOutput_3">
+  <connection connectorName="FLOW" label="Update1" lineStyle="0" metaname="Update1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tMysqlOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Update3" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Update1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="Update2" lineStyle="0" metaname="Update2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tMysqlOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Update2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="Update1" lineStyle="0" metaname="Update1" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_1" target="tMysqlOutput_1">
+  <connection connectorName="FLOW" label="Update3" lineStyle="0" metaname="Update3" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_1" target="tMysqlOutput_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Update1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Update3" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tMysqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_2" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
