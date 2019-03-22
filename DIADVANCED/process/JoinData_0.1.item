@@ -71,7 +71,7 @@
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.134&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.55.129&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;amc&quot;"/>
